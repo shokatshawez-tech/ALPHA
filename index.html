@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>👑 ALPHA ACQUISITIONS - VIP PORTFOLIO</title>
     <style>
-        body { background-color: #0d0e12; color: #ffffff; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 40px; text-align: center; }
-        .container { max-width: 900px; margin: 0 auto; background: #161820; padding: 30px; border-radius: 16px; border: 1px solid #232634; box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
-        h1 { color: #803bbf; font-size: 2.5rem; margin-bottom: 5px; font-weight: 800; letter-spacing: 1px; }
-        .subtitle { color: #8a8f9f; font-size: 1.1rem; margin-bottom: 40px; }
-        table { width: 100%; border-collapse: collapse; margin-bottom: 40px; text-align: left; }
-        th { padding: 16px; background: #1f222f; color: #8a8f9f; font-size: 0.9rem; text-transform: uppercase; border-radius: 4px; }
-        td { padding: 18px; border-bottom: 1px solid #232634; font-size: 1rem; }
-        .badge { background: #00ffaa22; color: #00ffaa; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: bold; border: 1px solid #00ffaa44; }
+        * { box-sizing: border-box; }
+        body { background-color: #0d0e12; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, sans-serif; margin: 0; padding: 20px; }
+        .container { max-width: 500px; margin: 0 auto; background: #161820; padding: 24px; border-radius: 20px; border: 1px solid #232634; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
+        h1 { color: #a66ee2; font-size: 1.8rem; margin: 0 0 5px 0; font-weight: 800; text-align: center; }
+        .subtitle { color: #867489; font-size: 0.95rem; margin-bottom: 30px; text-align: center; }
+        .deal-card { background: #1f222f; border: 1px solid #232634; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+        .deal-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; font-size: 0.95rem; }
+        .deal-row:last-child { margin-bottom: 0; }
+        .label { color: #8a8f9f; font-weight: 500; }
+        .value { font-weight: bold; }
         .locked { color: #ff3b30; font-weight: bold; font-family: monospace; }
-        .btn { display: inline-block; background: linear-gradient(135deg, #803bbf 0%, #5d268a 100%); color: white; padding: 18px 36px; border-radius: 30px; font-size: 1.2rem; font-weight: bold; text-decoration: none; box-shadow: 0 10px 20px rgba(128,59,191,0.3); transition: all 0.3s ease; border: none; cursor: pointer; }
-        .btn:hover { transform: translateY(-3px); box-shadow: 0 15px 25px rgba(128,59,191,0.5); }
+        .badge { background: rgba(0, 255, 170, 0.1); color: #00ffaa; padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; font-weight: bold; border: 1px solid rgba(0, 255, 170, 0.2); }
+        .payment-box { margin-top: 30px; background: #0d0e12; padding: 20px; border-radius: 12px; border: 1px solid #232634; text-align: center; }
+        .payment-title { color: #8a8f9f; font-size: 0.9rem; margin: 0 0 10px 0; font-weight: 600; }
+        .wallet-address { color: #00ffaa; font-family: monospace; font-size: 0.9rem; word-break: break-all; background: #161820; padding: 10px; border-radius: 6px; border: 1px solid #232634; margin-bottom: 15px; }
+        .btn { display: block; width: 100%; background: linear-gradient(135deg, #8f4bd2 0%, #803bbf 100%); color: white; padding: 16px; border-radius: 12px; font-size: 1.05rem; font-weight: bold; text-decoration: none; border: none; cursor: pointer; box-shadow: 0 8px 16px rgba(143,75,210,0.25); text-align: center; }
     </style>
 </head>
 <body>
@@ -23,41 +28,27 @@
         <h1>👑 ALPHA ACQUISITIONS</h1>
         <div class="subtitle">Elite Off-Market Stripe Verified Digital Deals Flow</div>
         
-        <table>
-            <thead>
-                <tr>
-                    <th>Asset Industry</th>
-                    <th>Monthly Net Profit</th>
-                    <th>Asking Price</th>
-                    <th>Audit Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><span class="locked">🔒 ENCRYPTED DATA</span></td>
-                    <td>$3,450 /mo</td>
-                    <td>$24,000</td>
-                    <td><span class="badge">✓ Stripe Verified</span></td>
-                </tr>
-                <tr>
-                    <td><span class="locked">🔒 ENCRYPTED DATA</span></td>
-                    <td>$1,890 /mo</td>
-                    <td>$14,500</td>
-                    <td><span class="badge">✓ Stripe Verified</span></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="deal-card">
+            <div class="deal-row"><span class="label">Asset Industry</span><span class="value locked">🔒 ENCRYPTED DATA</span></div>
+            <div class="deal-row"><span class="label">Monthly Net Profit</span><span class="value" style="color: #00ffaa;">$3,450 /mo</span></div>
+            <div class="deal-row"><span class="label">Asking Price</span><span class="value">$24,000</span></div>
+            <div class="deal-row"><span class="label">Audit Status</span><span class="badge">✓ Stripe Verified</span></div>
+        </div>
 
-       <div style="margin-top: 30px; background: #1f222f; padding: 25px; border-radius: 12px; border: 1px solid #232634; text-align: center;">
-    <p style="color: #8a8f9f; font-size: 1.1rem; margin-bottom: 15px;">🔒 Direct Web3 Wallet Connection Protocol</p>
-    <p style="color: #00ffaa; font-family: monospace; font-size: 1.1rem; word-break: break-all; background: #0d0e12; padding: 12px; border-radius: 6px; border: 1px solid #232634;">
-        0x10449E4da38206cc36f20BCABEb79C505E1Ea6d0
-    </p>
-    <a href="https://trustwallet.com" class="btn" style="display: block; margin-top: 15px;">
-        ⚡ 1-Click Secure Pay with Trust Wallet / Metamask ($499)
-    
-        </a> 
+        <div class="deal-card">
+            <div class="deal-row"><span class="label">Asset Industry</span><span class="value locked">🔒 ENCRYPTED DATA</span></div>
+            <div class="deal-row"><span class="label">Monthly Net Profit</span><span class="value" style="color: #00ffaa;">$1,890 /mo</span></div>
+            <div class="deal-row"><span class="label">Asking Price</span><span class="value">$14,500</span></div>
+            <div class="deal-row"><span class="label">Audit Status</span><span class="badge">✓ Stripe Verified</span></div>
+        </div>
+
+        <div class="payment-box">
+            <p class="payment-title">⚡ VIP Web3 Instant Payout Terminal</p>
+            <div class="wallet-address">0x10449E4da38206cc36f20BCABEb79C505E1Ea6d0</div>
+            <a href="https://trustwallet.com" class="btn">
+                1-Click Unlock VIP Dashboard ($499)
+            </a>
+        </div>
     </div>
 </body>
 </html>
-# ALPHA
